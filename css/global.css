@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img {
+  width: 100%;
+}
+
+/*Mobile First*/
+
+/*Header Styling*/
+
+.navbar-default {
+    margin-bottom: 0px;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.navbar-default .navbar-toggle {
+    margin-bottom: 0px;
+    border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: deeppink;
+    width: 40px;
+    height: 5px;
+}
+
+/*Body Stying*/
+
+.row-image {
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vw;
+}
+
+.title {
+    color: deeppink;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 5vw;
+    font-weight: bold;
+}
+
+.unlock {
+    color: white;
+    font-size: 32px;
+    margin-top: 5vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.row-buttons-mobile, row-buttons-desktop {
+    margin-top: 20px;
+}
+
+.row-buttons-desktop {
+    display: none;
+}
+.attend {
+    background-color: transparent;
+    border: solid #929292 2px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 150px;
+}
+
+.register {
+    background-color: #C4D760;
+    border: solid #C4D760 2px;
+    font-weight: bold;
+    font-size: 12px;
+    width: 150px;
+}
+
+.row-main {
+    margin-top: 13vw;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.premier {
+    color: #929292;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.row-footer {
+    margin-top: 75px;
+    margin-bottom: 0px;
+    height: 20px;
+    background-color: #62C5E6;
+}
+
+/*Desktop Screens*/
+@media only screen and (min-width : 768px) {
+
+
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-image {
+    height: 45vw;
+}
+
+.title {
+    color: deeppink;
+    font-size: 24px;
+}
+
+.title br {
+    display: none;
+}
+
+.unlock {
+    font-size: 60px;
+}
+
+.row-main {
+    margin-top: 3vw;
+    text-align: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+}
+
+.row-main h2 br {
+    display: none;
+}
+
+.row-buttons-desktop {
+    display: block;
+    margin-top: 40px;
+}
+.row-buttons-mobile {
+    display: none;
+}
+
+.attend {
+    color: white;
+}
+
+}
